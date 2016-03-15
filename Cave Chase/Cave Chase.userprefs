@@ -1,10 +1,11 @@
-﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\FlareMap.cs">
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/EditableTest.json">
     <Files>
-      <File FileName="..\..\..\DemonHunt\Assets\Maps\MapSpawner.cs" Line="46" Column="27" />
-      <File FileName="Assets\MapSpawner.cs" Line="88" Column="18" />
-      <File FileName="Assets\FlareMap.cs" Line="346" Column="71" />
+      <File FileName="Assets/try.txt" Line="19" Column="10" />
+      <File FileName="Assets/FlareMap.cs" Line="158" Column="1" />
+      <File FileName="Assets/EditableTest.txt.csv" Line="1" Column="1" />
+      <File FileName="Assets/EditableTest.json" Line="12" Column="15" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
