@@ -1,9 +1,24 @@
 fileFormatVersion: 2
 guid: 099a2ba05aa134fa5b7fee95bebc54a6
-timeCreated: 1458154103
+timeCreated: 1458154638
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: icy_demon_0
+    21300002: icy_demon_1
+    21300004: icy_demon_2
+    21300006: icy_demon_3
+    21300008: icy_demon_4
+    21300010: icy_demon_5
+    21300012: icy_demon_6
+    21300014: icy_demon_7
+    21300016: icy_demon_8
+    21300018: icy_demon_9
+    21300020: icy_demon_10
+    21300022: icy_demon_11
+    21300024: icy_demon_12
+    21300026: icy_demon_13
+    21300028: icy_demon_14
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,26 +45,205 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
-    wrapMode: -1
-  nPOTScale: 1
+    wrapMode: 1
+  nPOTScale: 0
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
-  alphaIsTransparency: 0
-  textureType: -1
+  alphaIsTransparency: 1
+  textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: icy_demon_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 10
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: icy_demon_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 10
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: icy_demon_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 10
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: icy_demon_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 10
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: icy_demon_4
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 10
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: icy_demon_5
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 10
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: icy_demon_6
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 10
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: icy_demon_7
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 10
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: icy_demon_8
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 5
+        width: 28
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: icy_demon_9
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 10
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: icy_demon_10
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 10
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: icy_demon_11
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 10
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: icy_demon_12
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 5
+        width: 44
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 28.5}
+        - {x: -17, y: 28.5}
+        - {x: -22, y: 26.5}
+        - {x: -22, y: -28.5}
+        - {x: 15, y: -28.5}
+        - {x: 19, y: -18.5}
+        - {x: 22, y: -6.5}
+        - {x: 22, y: 17.5}
+    - name: icy_demon_13
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 11
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: icy_demon_14
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 11
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 25.5}
+        - {x: -16, y: 12.5}
+        - {x: -16, y: -25.5}
+        - {x: 8, y: -25.5}
+        - {x: 16, y: -7.5}
+        - {x: 16, y: 25.5}
     outline: []
   spritePackingTag: 
   userData: 
