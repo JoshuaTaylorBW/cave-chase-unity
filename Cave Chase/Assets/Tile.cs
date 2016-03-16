@@ -24,7 +24,7 @@ public class Tile : MonoBehaviour {
 		if(type == BLOCKED)
 		{
 			BoxCollider2D collider = this.GetComponent<BoxCollider2D>();
-			collider.center = new Vector2(-16, 16);
+			collider.offset = new Vector2(-16, 16);
 		}
 	}
 
