@@ -1,0 +1,17 @@
+/Users/Urback-Stuart/Workspace/cave-chase-unity/Cave Chase/Temp/bin/Debug/UnityEngine.dll
+/Users/Urback-Stuart/Workspace/cave-chase-unity/Cave Chase/Temp/bin/Debug/UnityEditor.dll
+/Users/Urback-Stuart/Workspace/cave-chase-unity/Cave Chase/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/Urback-Stuart/Workspace/cave-chase-unity/Cave Chase/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/Urback-Stuart/Workspace/cave-chase-unity/Cave Chase/Temp/bin/Debug/Mono.Cecil.dll
+/Users/Urback-Stuart/Workspace/cave-chase-unity/Cave Chase/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/Urback-Stuart/Workspace/cave-chase-unity/Cave Chase/Temp/bin/Debug/Unity.DataContract.dll
+/Users/Urback-Stuart/Workspace/cave-chase-unity/Cave Chase/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/Urback-Stuart/Workspace/cave-chase-unity/Cave Chase/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/Urback-Stuart/Workspace/cave-chase-unity/Cave Chase/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/Urback-Stuart/Workspace/cave-chase-unity/Cave Chase/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/Urback-Stuart/Workspace/cave-chase-unity/Cave Chase/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/Urback-Stuart/Workspace/cave-chase-unity/Cave Chase/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/Urback-Stuart/Workspace/cave-chase-unity/Cave Chase/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/Urback-Stuart/Workspace/cave-chase-unity/Cave Chase/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/Urback-Stuart/Workspace/cave-chase-unity/Cave Chase/obj/Debug/Assembly-CSharp.dll
+/Users/Urback-Stuart/Workspace/cave-chase-unity/Cave Chase/obj/Debug/Assembly-CSharp.dll.mdb

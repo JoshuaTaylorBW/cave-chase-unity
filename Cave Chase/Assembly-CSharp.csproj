@@ -48,6 +48,7 @@
      <Compile Include="Assets\FlareMap.cs" />
      <Compile Include="Assets\MapSpawner.cs" />
      <Compile Include="Assets\Tile.cs" />
+     <Compile Include="Assets\WolfBehavior.cs" />
      <None Include="Assets\try.txt" />
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
