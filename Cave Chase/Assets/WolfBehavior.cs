@@ -48,7 +48,7 @@ public class WolfBehavior : MonoBehaviour {
 		}
 
 		if (transform.position.y < 800) {
-			SceneManager.LoadScene ("test");
+			GoToLevel ("0");
 		}
 			
 	
@@ -56,7 +56,16 @@ public class WolfBehavior : MonoBehaviour {
 
 
 	void OnCollisionEnter (Collision collision){
-		isFalling = false;
+	
+		if (collision.gameObject.name == "Tile(Clone)") {
+				isFalling = false;
+		}
+		
+		if (collision.gameObject.name == "nextLevel") {
+				GoToLevel ("1");
+		}
+
+		
 		
 	}
 
@@ -67,11 +76,11 @@ public class WolfBehavior : MonoBehaviour {
 	
 	void CheckIfWolfIsDead (){
 		if (health == 0) {
-			GoToLevel1 ();
+			GoToLevel ("0");
 		}		
 	}
 
-	void GoToLevel1 (){
-		//Application.LoadScene ("test");
+	void GoToLevel (string levelName){
+		SceneManager.LoadScene ("Level" + levelName);
 	}
 }
