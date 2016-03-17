@@ -1,10 +1,8 @@
-﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\FlareMap.cs">
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/skullMovement.cs">
     <Files>
-      <File FileName="..\..\..\DemonHunt\Assets\Maps\MapSpawner.cs" Line="46" Column="27" />
-      <File FileName="Assets\MapSpawner.cs" Line="88" Column="18" />
-      <File FileName="Assets\FlareMap.cs" Line="346" Column="71" />
+      <File FileName="Assets/skullMovement.cs" Line="45" Column="41" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

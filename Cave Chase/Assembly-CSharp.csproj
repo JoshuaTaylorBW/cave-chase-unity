@@ -45,9 +45,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Extensions.cs" />
      <Compile Include="Assets\FlareMap.cs" />
      <Compile Include="Assets\MapSpawner.cs" />
      <Compile Include="Assets\Tile.cs" />
+     <Compile Include="Assets\skullMovement.cs" />
+     <Compile Include="Assets\skull_scrpit.cs" />
      <None Include="Assets\try.txt" />
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
