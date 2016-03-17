@@ -67,12 +67,13 @@ public class WolfBehavior : MonoBehaviour {
 	}
 	
 	void CheckIfWolfIsDead (){
-		if (health == 0) {
+
+		if (health <= 0) {
 			GoToLevel1 ();
 		}		
 	}
 
 	void GoToLevel1 (){
-		
+				SceneManager.LoadScene ("test");
 	}
 }

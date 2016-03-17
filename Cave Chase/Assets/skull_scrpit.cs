@@ -56,6 +56,7 @@ public class skull_scrpit : MonoBehaviour {
 
 		void OnCollisionEnter (Collision collision){
 				if (collision.gameObject.name == "wolf") {
+						Debug.Log ("fuckin dead son");
 						GameObject.Find ("wolf").GetComponent<WolfBehavior> ().HurtWolf (1);
 				}
 
