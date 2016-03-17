@@ -17,6 +17,7 @@ public class EnemyController : MonoBehaviour {
 
 	void OnCollisionEnter(Collision col){
 		if (col.gameObject.name == "wolf") {
+		// probably going to need to change the gameobject.name
 			wolf.GetComponent<WolfBehavior> ().HurtWolf (1);
 		}
 	}

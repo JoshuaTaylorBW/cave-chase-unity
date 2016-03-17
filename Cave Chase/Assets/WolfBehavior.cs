@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class WolfBehavior : MonoBehaviour {
@@ -6,8 +7,11 @@ public class WolfBehavior : MonoBehaviour {
 	public float speed;
 	public float jumpSpeed;
 	public float health;
+	public float descel;
+	public GameObject finishLine;
 	private Rigidbody rb2d;
 	private bool isFalling = false;
+	
 
 
 	// Use this for initialization
@@ -16,8 +20,8 @@ public class WolfBehavior : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		rb2d.velocity = new Vector3 (0, rb2d.velocity.y, 0);
+	void FixedUpdate () {
+
 
 		if (Input.GetKey(KeyCode.Space) && !isFalling){
 			rb2d.AddForce(Vector3.up * jumpSpeed);
@@ -25,10 +29,21 @@ public class WolfBehavior : MonoBehaviour {
 		}
 						
 		if (Input.GetKey (KeyCode.RightArrow)) {
-			rb2d.velocity = new Vector3 (speed, rb2d.velocity.y, 0);
+				rb2d.AddForce(speed, 0, 0);
+		} else if (Input.GetKey (KeyCode.LeftArrow)) {
+				rb2d.AddForce(-speed, 0, 0);
+		} else {	
+			if (rb2d.velocity.x > 0) {
+					rb2d.AddForce (-descel, rb2d.velocity.y, 0);
+			} else if (rb2d.velocity.x < 0) {
+					rb2d.AddForce (descel, rb2d.velocity.y, 0);
+			} else {
+					rb2d.velocity = new Vector3 (0, rb2d.velocity.y, 0);
+			}
 		}
-		if (Input.GetKey (KeyCode.LeftArrow)) {
-			rb2d.velocity = new Vector3 (-speed, rb2d.velocity.y, 0);
+
+		if (transform.position.y < 800) {
+			SceneManager.LoadScene ("test");
 		}
 			
 	
@@ -52,6 +67,6 @@ public class WolfBehavior : MonoBehaviour {
 	}
 
 	void GoToLevel1 (){
-		Application.LoadLevel ("test");
+		//Application.LoadScene ("test");
 	}
 }

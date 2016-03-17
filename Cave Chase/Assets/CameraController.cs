@@ -17,8 +17,8 @@ public class CameraController : MonoBehaviour {
 		// Use LateUpdate for procedurals, animations, and other things, to validate that all the other updates have occurred before updating.
 		void LateUpdate () {
 
-				transform.position = player.transform.position + offset;
-				Debug.Log (player.transform);
+
+				transform.position = new Vector3(GameObject.Find ("wolf").transform.position.x + offset.x, transform.position.y, transform.position.z);
 
 		}
 }
