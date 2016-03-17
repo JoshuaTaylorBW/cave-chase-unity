@@ -11,7 +11,7 @@ public class WolfBehavior : MonoBehaviour {
 	public GameObject finishLine;
 	private Rigidbody rb2d;
 	private bool isFalling = false;
-	
+	public float smooth = 2.0F;
 
 
 	// Use this for initialization
@@ -26,11 +26,16 @@ public class WolfBehavior : MonoBehaviour {
 		if (Input.GetKey(KeyCode.Space) && !isFalling){
 			rb2d.AddForce(Vector3.up * jumpSpeed);
 			isFalling = true;
+			
 		}
 						
 		if (Input.GetKey (KeyCode.RightArrow)) {
+				Quaternion target = Quaternion.Euler(0, 180, 0);
+				transform.rotation = Quaternion.Slerp(transform.rotation, target, Time.deltaTime * smooth);
 				rb2d.AddForce(speed, 0, 0);
 		} else if (Input.GetKey (KeyCode.LeftArrow)) {
+				Quaternion target = Quaternion.Euler(0, 0, 0);
+				transform.rotation = Quaternion.Slerp(transform.rotation, target, Time.deltaTime * smooth);
 				rb2d.AddForce(-speed, 0, 0);
 		} else {	
 			if (rb2d.velocity.x > 0) {
