@@ -1,0 +1,201 @@
+fileFormatVersion: 2
+guid: 15667d39d64df41a59cb242d9085236a
+timeCreated: 1458252671
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: rpgcritter update formatted transparent_0
+    21300002: rpgcritter update formatted transparent_1
+    21300004: rpgcritter update formatted transparent_2
+    21300006: rpgcritter update formatted transparent_3
+    21300008: rpgcritter update formatted transparent_4
+    21300010: rpgcritter update formatted transparent_5
+    21300012: rpgcritter update formatted transparent_6
+    21300014: rpgcritter update formatted transparent_7
+    21300016: rpgcritter update formatted transparent_8
+    21300018: rpgcritter update formatted transparent_9
+    21300020: rpgcritter update formatted transparent_10
+    21300022: rpgcritter update formatted transparent_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: rpgcritter update formatted transparent_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 115
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpgcritter update formatted transparent_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 116
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpgcritter update formatted transparent_2
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 114
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpgcritter update formatted transparent_3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 83
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpgcritter update formatted transparent_4
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 84
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpgcritter update formatted transparent_5
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 82
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpgcritter update formatted transparent_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 53
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpgcritter update formatted transparent_7
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 55
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpgcritter update formatted transparent_8
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 50
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpgcritter update formatted transparent_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 21
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpgcritter update formatted transparent_10
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 23
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rpgcritter update formatted transparent_11
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 18
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

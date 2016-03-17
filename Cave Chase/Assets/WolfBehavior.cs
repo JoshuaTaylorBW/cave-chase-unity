@@ -62,6 +62,7 @@ public class WolfBehavior : MonoBehaviour {
 
 	public void HurtWolf (float decreaseBy){
 		health -= decreaseBy;
+		CheckIfWolfIsDead ();
 			
 	}
 	
@@ -72,6 +73,6 @@ public class WolfBehavior : MonoBehaviour {
 	}
 
 	void GoToLevel1 (){
-		//Application.LoadScene ("test");
+		
 	}
 }
